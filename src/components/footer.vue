@@ -35,17 +35,12 @@
 	  },
 	  methods:{
 	  		home(){
-	  			
-			 		this.index = 1;
 			 		this.$router.push({ path: 'Home',query:{ id:1}})
 			 },
 			 invest(){
-			 		
-			 		this.index = 2;
 			 		this.$router.push({ path: 'invest',query:{ id:2}})
 			 },
 			 mine(){
-			 		this.index = 3;
 			 		this.$router.push({ path: 'mine',query:{ id:3}})
 			 },
 	  },
